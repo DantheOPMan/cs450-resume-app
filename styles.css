@@ -1,0 +1,63 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .resume-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #f1c40f;
+    padding-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .personal-profile, .work-experience, .key-skills, .education {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    color: #f1c40f;
+  }
+  
+  .personal-profile p, .work-experience p {
+    margin: 10px 0;
+  }
+  
+  /* Flexbox Grid for Skills */
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills-grid div {
+    flex: 1 1 calc(33.33% - 10px);
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .job {
+    margin-bottom: 20px;
+  }
+  
